@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página pessoal de Davi Marques.">
+  <title>Davi Marques | Minha página</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <a class="marca" href="#inicio">DM<span>.</span></a>
+    <nav aria-label="Navegação principal">
+      <a href="#sobre">Sobre mim</a>
+      <a href="#formacao">Formação</a>
+      <a href="#objetivos">Objetivos</a>
+    </nav>
+    <button class="tema" id="tema" aria-label="Alternar tema" title="Alternar tema">☼</button>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-texto">
+        <p class="etiqueta"><span class="ponto"></span> MINHA PÁGINA PESSOAL</p>
+        <h1>Olá, eu sou<br><span>Davi Marques.</span></h1>
+        <p class="resumo">Tenho 16 anos e estou construindo meu caminho por meio dos estudos, da dedicação e de novos aprendizados.</p>
+        <a class="botao" href="#sobre">Conheça minha história <span>↓</span></a>
+      </div>
+      <div class="avatar-area">
+        <div class="circulo">
+          <span>DM</span>
+        </div>
+        <div class="cartao-local">
+          <span class="pin">⌖</span>
+          <div><strong>Pompeia</strong><small>São Paulo, Brasil</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" id="sobre">
+      <div class="titulo-secao">
+        <p class="etiqueta">01 — APRESENTAÇÃO</p>
+        <h2>Quem sou eu?</h2>
+      </div>
+      <div class="painel">
+        <p>Meu nome é <strong>Davi Marques</strong>, tenho <strong>16 anos</strong> e moro na cidade de <strong>Pompeia, São Paulo</strong>. Atualmente, estou cursando Técnico em Mecânica no SENAI. Busco aprender, desenvolver novas habilidades e me preparar para as oportunidades do futuro.</p>
+      </div>
+    </section>
+
+    <section class="secao" id="formacao">
+      <div class="titulo-secao">
+        <p class="etiqueta">02 — APRENDIZADO</p>
+        <h2>Minha formação</h2>
+      </div>
+      <article class="formacao-card">
+        <div class="icone">⚙</div>
+        <div>
+          <p class="mini">CURSO EM ANDAMENTO</p>
+          <h3>Técnico em Mecânica</h3>
+          <p class="instituicao">SENAI</p>
+          <p class="descricao">Desenvolvendo conhecimentos e habilidades na área da mecânica.</p>
+        </div>
+        <span class="status">Em andamento</span>
+      </article>
+    </section>
+
+    <section class="secao" id="objetivos">
+      <div class="titulo-secao">
+        <p class="etiqueta">03 — PLANOS PARA O FUTURO</p>
+        <h2>Meu objetivo</h2>
+      </div>
+      <div class="objetivo">
+        <div class="estrela">✦</div>
+        <p>Meu principal objetivo é terminar o curso técnico em Mecânica, adquirir experiência profissional e conquistar boas oportunidades. Quero construir um futuro excelente, com dedicação, esforço e determinação.</p>
+      </div>
+    </section>
+
+    <section class="frase">
+      <p class="etiqueta">MINHA MOTIVAÇÃO</p>
+      <blockquote>“O futuro depende da dedicação que temos hoje.”</blockquote>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="ano"></span> Davi Marques</span>
+    <span>Minha história • Meus objetivos</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
